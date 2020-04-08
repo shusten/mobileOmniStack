@@ -13,7 +13,7 @@ export default function Incidents() {
     const navigation = useNavigation();
 
     function navigateToDetail() {
-        navigation.navigate('Detail');
+        navigation.navigate('Detail'); 
     }
 
 
@@ -40,7 +40,7 @@ export default function Incidents() {
                     <Text style={styles.incidentProperty}>ONG:</Text>
                     <Text style={styles.incidentValue}>APAD</Text>
                     
-                    <Text style={styles.incidentProperty}>Caso</Text>
+                    <Text style={styles.incidentProperty}>Caso:</Text>
                     <Text style={styles.incidentValue}>Cadelinha atropelada</Text>
                     
                     <Text style={styles.incidentProperty}>Valor:</Text>
